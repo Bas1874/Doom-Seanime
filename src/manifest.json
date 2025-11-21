@@ -2,7 +2,7 @@
     "id": "Doom",
     "name": "Doom",
     "version": "1.0.0",
-    "manifestURI": "",
+    "manifestURI": "https://raw.githubusercontent.com/Bas1874/Doom-Seanime/refs/heads/main/src/manifest.json",
     "language": "typescript",
     "type": "plugin",
     "description": "Doom in Seanime",
@@ -10,7 +10,7 @@
     "icon": "https://github.com/Bas1874/Doom-Seanime/blob/main/icons/Icon2.png?raw=true",
     "website": "",
     "lang": "en",
-    "payloadURI": "",
+    "payloadURI": "https://raw.githubusercontent.com/Bas1874/Doom-Seanime/refs/heads/main/src/Doom.ts",
     "plugin": {
         "version": "1",
         "permissions": {
