@@ -1,0 +1,22 @@
+{
+    "id": "Doom",
+    "name": "Doom",
+    "version": "1.0.0",
+    "manifestURI": "",
+    "language": "typescript",
+    "type": "plugin",
+    "description": "Doom in Seanime",
+    "author": "bas1874",
+    "icon": "https://github.com/Bas1874/Doom-Seanime/blob/main/icons/Icon2.png?raw=true",
+    "website": "",
+    "lang": "en",
+    "payloadURI": "",
+    "plugin": {
+        "version": "1",
+        "permissions": {
+            "scopes": []
+        }
+    },
+    "isDevelopment": false
+}
+
