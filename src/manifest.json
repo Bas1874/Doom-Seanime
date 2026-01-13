@@ -14,9 +14,16 @@
     "plugin": {
         "version": "1",
         "permissions": {
-            "scopes": []
+            "scopes": [],
+            "allow": {
+                "unsafeFlags": [
+                    {
+                        "flag": "dom-script-manipulation",
+                        "reason": "Required to inject the DOSBox emulator (JS-DOS) and game logic script into the page."
+                    }
+                ]
+            }
         }
     },
     "isDevelopment": false
 }
-
