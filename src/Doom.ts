@@ -256,8 +256,7 @@ use_mouse		1
             `;
         };
 
-        // Updated Icon URL
-        const icon = "https://github.com/Bas1874/Doom-Seanime/blob/main/icons/Doom.png?raw=true";
+        const icon = "https://raw.githubusercontent.com/Bas1874/Doom-Seanime/main/icons/Doom.png";
 
         const tray = ctx.newTray({
             tooltipText: "Doom",
