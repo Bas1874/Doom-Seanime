@@ -14,7 +14,7 @@ function init() {
 
                 // --- CONFIGURATION ---
                 const RAW_URL = "https://raw.githubusercontent.com/Bas1874/Doom-Seanime/main/DOOM.zip";
-                const GAME_URL = "https://corsproxy.io/?" + encodeURIComponent(RAW_URL);
+                const GAME_URL = "https://cdn.jsdelivr.net/gh/Bas1874/Doom-Seanime@main/DOOM.zip";
                 
                 const DB_NAME = "SeanimeDoomCache";
                 const STORE_NAME = "files";
@@ -256,7 +256,7 @@ use_mouse		1
             `;
         };
 
-        const icon = "https://raw.githubusercontent.com/Bas1874/Doom-Seanime/main/icons/Doom.png";
+const icon = "https://raw.githubusercontent.com/Bas1874/Doom-Seanime/main/icons/Doom.png";
 
         const tray = ctx.newTray({
             tooltipText: "Doom",
